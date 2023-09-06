@@ -1,0 +1,10 @@
+.img:hover {
+  opacity: 1;
+}
+.icon:hover {
+  width: 180px;
+}
+.inlin > ul > li:hover {
+  background-color: rgb(27, 26, 26);
+  border-radius: 30px;
+}

@@ -11,7 +11,6 @@ body {
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  opacity: 0.8;
 }
 .inlin:nth-of-type(1) {
   height: 80vh;
@@ -40,6 +39,14 @@ body {
   font-size: 20px;
   overflow: hidden;
   color: aliceblue;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin-left: 200px;
 }
 .flex {
   padding: 90px;
@@ -47,7 +54,6 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  opacity: 1;
 }
 .flex div {
   background-color: rgb(185, 192, 192);
@@ -57,6 +63,7 @@ body {
 .img {
   width: 430px;
   height: 230px;
+  opacity: 0.8;
 }
 .top {
   color: blueviolet;
@@ -67,7 +74,4 @@ body {
 .box {
   text-align: justify;
   padding: 10px;
-}
-.icon:hover {
-  width: 180px;
 }
